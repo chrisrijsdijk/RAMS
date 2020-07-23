@@ -1,2 +1,2 @@
 # RAMS
-Demo scripts
+Demo script
