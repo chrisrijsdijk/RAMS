@@ -1,11 +1,7 @@
 # RAMS repository
 
-This repository contains some very simple scripts supporting an introductory course on Reliability, Availability, Maintainability and Supportability (RAMS).
+This repository contains some very simple scripts supporting an introductory course on Reliability, Availability, Maintainability and Supportability (RAMS). It covers
 
-demo script(https://nbviewer.jupyter.org/github/chrisrijsdijk/RAMS/blob/master/PoissonDistribution.ipynb) shows how the estimation of a maximum likelihood Poisson parameter may take place from typical CMMS data. 
+# Homogenous Poisson process
+This [script](https://nbviewer.jupyter.org/github/chrisrijsdijk/RAMS/blob/master/PoissonDistribution.ipynb) may be interesting to operating organisations that only have Computerised Maintenance Management System (CMMS) data available. CMMS data is typically event data that has been entered by human beings and it is therefore prone to humans factors. This [paper](https://www.phmpapers.org/index.php/phme/article/view/409) provides a realistic application of this script while outlining that this basic analysis may be enriched with sensor data.
 
-This demo script shows the construction of a state transition matrix
-[Scikit-Learn](http://scikit-learn.org), and related packages.
-
-
-See [Demo script](https://nbviewer.jupyter.org/github/chrisrijsdijk/RAMS/blob/master/PoissonDistribution.ipynb) is...
