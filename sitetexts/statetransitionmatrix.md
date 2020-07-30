@@ -18,4 +18,13 @@ The main output of this script is a graph that plots the probability of an upsta
 
 ![image](/figures/StateTransitionPlot02.png).
 
-Both pictures have been built on the same time series, but in the first picture this time series has been decomposed in 10 steps and in the second one, it has been decomposed in 60 steps. Evidently, the resolutions of the second graph is more accurate. If the number of system states is small, an equation for the evoltion of the probability of the upstate can be derived.
+Both pictures have been built on the same time series, but in the first picture this time series has been decomposed in 10 steps and in the second one, it has been decomposed in 60 steps. Then, the number of state transitions in the time series did not change, but the number of state holdings grows by a factor 6 as shown in the state transition matrix below.
+
+|             | up/up     | up/down   | down/up | down/down  |
+|:-----------:|----------:|----------:|--------:|-----------:|
+|up/up        |    0.93   |    0.05   |   0.17  |   0.00     |
+|up/down      |    0.04   |    0.88   |   0.00  |   0.08     |
+|down/up      |    0.08   |    0.00   |   0.88  |   0.04     |
+|down/down    |    0.00   |    0.06   |   0.11  |   0.83     |
+
+Although both graphs end at similar probabilities of an upstate, the resolution of the second graph is more accurate. This idea can be stretched to a decomposition into infinitely many time intervals. If the number of system states is small, an equation for the evolution of the probability of the upstate can be derived.
