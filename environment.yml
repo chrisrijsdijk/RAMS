@@ -6,7 +6,7 @@ dependencies:
   - pandas
   - numpy
   - scipy
-  - mathplotlib
+  - matplotlib
   - anaconda-navigator=1.9.12
   - pip:
     - gitdb==4.0.5
