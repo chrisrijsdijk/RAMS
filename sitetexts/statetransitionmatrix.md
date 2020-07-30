@@ -12,11 +12,11 @@ The script illustrates the construction of the state transition matrix from a ti
 
 Particularly in case of multiple state systems, it is often impossible to construct a state transition matrix from a time series of observations. Failures typically (and hopefully!) rarely occur and some system states may therefore remain absent in the time series. Then, the state transition matrix cannot be constructed from a time series of observations. Then, expert judgement is needed to load the state transition matrix. Reliability handbooks may be helpful here.
 
-![image](/figures/StateTransitionPlot01.png).
+![image](figures/StateTransitionPlot01.png).
 
 The main output of this script is a graph that plots the probability of an upstate of the system. In case of multiple state systems, a definition of the system's upstate needs to be specified. In this picture, both components should be up for the system to be up or just one of the two components should be up for the system to be up. So, the effect of various configurations on the probability of the upstate may be evaluated.
 
-![image](/figures/StateTransitionPlot02.png).
+![image](figures/StateTransitionPlot02.png).
 
 Both pictures have been built on the same time series, but in the first picture this time series has been decomposed in 10 steps and in the second one, it has been decomposed in 60 steps. Then, the number of state transitions in the time series did not change, but the number of state holdings grows by a factor 6 as shown in the state transition matrix below.
 
