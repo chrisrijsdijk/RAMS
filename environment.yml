@@ -6,6 +6,7 @@ dependencies:
   - pandas
   - numpy
   - scipy
+  - scikit-learn
   - matplotlib
   - anaconda-navigator=1.9.12
 prefix: C:\Users\Chris\anaconda3
