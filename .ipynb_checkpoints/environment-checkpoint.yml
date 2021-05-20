@@ -1,0 +1,13 @@
+﻿name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - anaconda-navigator
+prefix: C:\Users\Chris\anaconda3
+
