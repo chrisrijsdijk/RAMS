@@ -1,7 +1,6 @@
 ﻿name: base
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - pandas
   - numpy
@@ -9,8 +8,7 @@ dependencies:
   - scikit-learn
   - matplotlib
   - openpyxl
-  - anaconda-navigator
   - pyserial
   - keyboard
-prefix: C:\Users\Chris\anaconda3
+
 
