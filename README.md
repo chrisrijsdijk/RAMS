@@ -6,3 +6,4 @@ This repository contains some very simple scripts supporting an introductory cou
 - [Decisions regarding the dichotomous quality](https://nbviewer.jupyter.org/github/chrisrijsdijk/RAMS/blob/master/sitetext/DecideOnQuality.ipynb?flush_cache=true).
 - [Oilanalysis](https://nbviewer.jupyter.org/github/chrisrijsdijk/RAMS/blob/master/sitetext/Oilanalysis.ipynb?flush_cache=true).
 - [Fault detection and diagnostics](https://nbviewer.jupyter.org/github/chrisrijsdijk/RAMS/blob/master/sitetext/FaultDetection.ipynb?flush_cache=true).
+- [Causal inference](https://nbviewer.jupyter.org/github/chrisrijsdijk/RAMS/blob/master/sitetext/CausalInference.ipynb?flush_cache=true).
